@@ -12,7 +12,7 @@ export function SiteShell({
 }: {
   children: ReactNode;
 }) {
-  const adminUrl = process.env.NEXT_PUBLIC_ADMIN_URL ?? "http://localhost:3000";
+  const adminUrl = process.env.NEXT_PUBLIC_ADMIN_URL ?? "http://localhost:3000/login";
 
   return (
     <div className="min-h-screen">

@@ -20,7 +20,7 @@ export default function Home() {
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Link
-                  href={process.env.NEXT_PUBLIC_ADMIN_URL ?? "http://localhost:3000"}
+                  href={process.env.NEXT_PUBLIC_ADMIN_URL ?? "http://localhost:3000/login"}
                   className="rounded-full bg-[var(--accent)] px-6 py-4 text-center text-sm font-semibold text-white transition hover:bg-[#1d4ed8]"
                 >
                   Start free
